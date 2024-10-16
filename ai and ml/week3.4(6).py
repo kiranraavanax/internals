@@ -6,4 +6,5 @@ columns=["Maths","Java","Py"])
 print(d)
 c=d.agg(['sum','min','max','count','mean','median','std','size',])
 print()
-print(c)
+print(c)
+

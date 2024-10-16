@@ -1,0 +1,3 @@
+Artificial intelligence is a thing which human tries to give a knowledge 
+to a machine to perform like a humans in each and every condition 
+example : reading ,writing ,answering etc. Artificial intelligence is branch of cs that requires human intelligence which is run by machines.

@@ -4,11 +4,11 @@ b = pd.Series([40, 50, 60, 70, 80])
  
 non_com = a[~a.isin(b)].tolist() + b[~b.isin(a)].tolist() 
 print("Items not common to both Series:") 
-print(non_com) 
+print(non_com)
  
-print("\nSmallest element in Series A:\n", a.min()) 
+print("\nSmallest element in Series A:\n",a.min()) 
 print("\nLargest element in Series A:\n",a.max()) 
  
 print("\nSum of Series B:\n",b.sum()) 
 print("\nAverage of Series A:\n",a.mean()) 
-print("\nMedian of Series B:\n", a.median())
+print("\nMedian of Series B:\n",a.median())

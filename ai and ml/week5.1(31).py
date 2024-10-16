@@ -3,4 +3,5 @@ df=p.read_csv("C:/Users/kiran/Downloads/tested.csv")
 info=df.info()
 print("\n\n\nis_na:\n\n",df.isna().head(7))
 is_null_su=df.isna().sum()
-print("\n\n\nCount of all Missing values:\n\n",df.isna().sum())
+print("\n\n\nCount of all Missing values:\n\n",df.isna().sum())
+
